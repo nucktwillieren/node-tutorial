@@ -4,7 +4,6 @@
 
 function myFunction(args) {
     console.log(this);
-    console.log(args)
 }
 
 // Simple invocation
@@ -13,7 +12,7 @@ myFunction(); // logs global object (window)
 // (or undefined if the function runs in strict mode);
 
 // Simple invocation when callback
-setTimeout(myFunction, 1000)
+setTimeout(myFunction, 3000)
 
 // Indirect invocation
 const myContext = { value: 'A' };

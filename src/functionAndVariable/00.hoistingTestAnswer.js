@@ -56,7 +56,7 @@ function letDeclareWithoutAssignment() {
 letDeclareWithoutAssignment()
 
 function isLetHoisted() {
-    console.log(a); // ReferenceError: temproal dead zone
+    console.log(a); // ReferenceError: teproal dead zone
     let a;
 }
 
